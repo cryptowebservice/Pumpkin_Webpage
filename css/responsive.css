@@ -1,0 +1,402 @@
+/*
+------------------
+
+Project:        Allhallows-Halloween Event HTML5 Template 
+Version:        1.0
+Last change:    20/10/2018
+Primary use:    Halloween Party
+Author:         Ingenious_team
+------------------ */
+
+@media (min-width: 1300px) and (max-width: 1450px) {
+    #contact:after {
+        left: 41%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .full-screen {
+        min-height: 680px;
+    }
+    .artist-part:before {
+        left: 47%;
+    }
+    .artist-part:after {
+        top: -610px;
+    }
+    .ticket-inner h5 {
+        font-size: 38px;
+        margin: 18px 0 28px;
+    }
+    .ticket-inner ul li {
+        margin: 8px 0;
+    }
+    .ticket-inner {
+        top: 18px;
+    }
+    .invitation-section select,
+    .invitation-section input {
+        width: 470px;
+    }
+    .modal-dialog {
+        margin-top: 100px;
+        max-width: 890px !important;
+    }
+    .modal-content {
+        margin-top: 9%;
+    }
+    .switch {
+        right: 18%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar {
+        padding-bottom: 10px;
+    }
+    .switch {
+        right: -4%;
+    }
+    .header-nav .navbar-nav>li {
+        margin: 0 0 0 15px;
+    }
+    .header-nav .navbar-nav .nav-item a {
+        padding: 0 5px;
+        font-size: 14px;
+    }
+    .header-nav .navbar-nav .nav-link.active:before,
+    .header-nav .navbar-nav .nav-item:hover:before {
+        height: 87px;
+    }
+    .nav-sign li a {
+        font-size: 18px;
+        padding: 8px 12px;
+        width: 135px;
+        height: 42px;
+    }
+    .full-screen {
+        min-height: 520px;
+    }
+    .home-banner h5 {
+        font-size: 40px;
+        margin: 25px 0 40px;
+    }
+    .home-banner p {
+        width: 360px;
+    }
+    .artist-info ul li a {
+        margin-right: 5px;
+        font-size: 14px;
+        width: 32px;
+        height: 32px;
+        line-height: 28px;
+    }
+    .artist-part:after {
+        right: -37%;
+        top: -670px;
+        height: 288%;
+    }
+    #aboutus:after {
+        left: -265px;
+    }
+    .btn-bar a {
+        font-size: 18px;
+        padding: 10px 12px;
+        width: 142px;
+        height: 43px;
+    }
+    .artist-info h2 {
+        font-size: 17px;
+    }
+    .artist-info h3 {
+        font-size: 14px;
+    }
+    .artist-info p {
+        width: 145%;
+    }
+    .gallery-overlay ul li a {
+        font-size: 15px;
+        width: 34px;
+        height: 34px;
+        line-height: 33px;
+    }
+    .testimonial-section:before {
+        top: -218px;
+    }
+    .testimonial-info p {
+        width: 340px;
+    }
+    .testimonial-info {
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    #ticket:before {
+        top: -213px;
+    }
+    .ticket-inner h5 {
+        font-size: 42px;
+        margin: 25px 0 35px;
+    }
+    .ticket-inner ul li {
+        margin: 13px 0;
+    }
+    #contact:before {
+        left: 46%;
+    }
+    #invitation:before {
+        left: 47%;
+    }
+    .invitation-section select,
+    .invitation-section input {
+        width: 346px;
+    }
+    #contact:after {
+        left: 32%;
+    }
+    .modal-dialog {
+        max-width: 700px !important;
+    }
+    .modal-content {
+        margin-top: 7%;
+    }
+    #letter5 input {
+        width: 66%;
+    }
+    .letter_inner p {
+        padding: 0 13%;
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .full-screen {
+        min-height: 100vh;
+    }
+    .header-nav .navbar-nav>li {
+        margin: 10px 0;
+    }
+    section#privatesale .col-md-4 {
+        width: 49%;
+    }
+    .switch {
+        right: 6%;
+    }
+    ul.feature_block {
+        display: block;
+    }
+    li.feature_block_card {
+        display: block;
+        width: auto;
+    }
+    .col-md-3.gallery-padding {
+        width: 49%;
+    }
+    .header-nav .navbar-nav .nav-link.active:after,
+    .header-nav .navbar-nav .nav-item:after,
+    .header-nav .navbar-nav .nav-link.active:before,
+    .header-nav .navbar-nav .nav-item:hover:before {
+        display: none;
+    }
+    .nav-sign li a {
+        padding: 10px;
+        height: 45px;
+    }
+    .home-text-center {
+        top: 53%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #aboutus::before {
+        left: 45%;
+        top: -217px;
+        height: 14%;
+    }
+    #aboutus::after {
+        left: -215px;
+        top: 0;
+        height: 27%;
+    }
+    .artist-part::before {
+        left: 46%;
+        height: 19%;
+    }
+    .artist-part::after {
+        left: 25%;
+    }
+    .artist-info {
+        margin-top: 0px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .testimonial-info p,
+    .artist-info p {
+        width: 100%;
+    }
+    .artist-info ul {
+        text-align: center;
+        display: inline-flex;
+    }
+    .gallery-padding:last-child {
+        margin-bottom: 0px;
+    }
+    .gallery-padding {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .artist-part {
+        padding-bottom: 0px;
+    }
+    .testimonial-section::before {
+        left: 46%;
+        top: -215px;
+    }
+    .testimonial-info,
+    .testimonial-img {
+        text-align: center;
+    }
+    .testimonial-info h2 {
+        margin-top: 10px;
+    }
+    #ticket::before {
+        left: 46%;
+        top: -214px;
+    }
+    .ticket-img {
+        margin-bottom: 30px;
+    }
+    #ticket {
+        padding-bottom: 0px;
+    }
+    #invitation::before {
+        left: 46%;
+        top: -213px;
+    }
+    #invitation,
+    #contact {
+        padding-bottom: 0;
+    }
+    #contact::before {
+        left: 46%;
+        top: -215px;
+    }
+    .contact-section input {
+        width: 360px;
+    }
+    #contact::after {
+        transform: translateX(-177px);
+        bottom: 0;
+        height: 208%;
+    }
+    .modal-dialog {
+        max-width: 600px !important;
+    }
+    .modal-content {
+        margin-top: -5%;
+    }
+    #letter5 input {
+        width: 70%;
+    }
+    .letter_inner p {
+        padding: 0 13%;
+        padding-bottom: 30px;
+    }
+    .letter_inner h2 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .switch {
+        right: 10%;
+    }
+    .home-banner p {
+        width: 315px;
+    }
+    .home-banner h5 {
+        font-size: 35px;
+        margin: 25px 0 27px;
+    }
+    .home-banner .ban-txt {
+        padding-left: 7px;
+    }
+    .heading {
+        font-size: 28px;
+    }
+    .about-text p {
+        width: 308px;
+    }
+    #aboutus::before {
+        left: 40%;
+        height: 25%;
+    }
+    #aboutus::after {
+        left: -331px;
+        width: 180%;
+    }
+    .artist-part::before {
+        left: 41%;
+        height: 24%;
+    }
+    #ticket::before,
+    .testimonial-section::before {
+        left: 40%;
+    }
+    .invitation-section select,
+    .invitation-section input {
+        width: 100%;
+    }
+    #contact::before,
+    #invitation::before {
+        left: 41%;
+    }
+    .contact-section input {
+        width: 255px;
+        padding-left: 15px;
+        font-size: 13px;
+    }
+    #contact::after {
+        display: none;
+    }
+    .button {
+        font-size: 14px;
+        padding: 8px 11px;
+    }
+    .footer_text a {
+        font-size: 12px;
+    }
+    #back-top-btn {
+        width: 45px;
+        height: 45px;
+    }
+    .gallery .heading {
+        padding-top: 65px;
+    }
+    #gallery::before {
+        left: 41%;
+        top: -203px;
+    }
+    #loading-center-absolute {
+        position: absolute;
+        left: 50%;
+        top: 47%;
+        height: 100px;
+        width: 200px;
+        transform: translate(-50%, -50%);
+    }
+    #letter5 input {
+        width: 90%;
+    }
+    .letter_inner p {
+        padding: 0 5%;
+        padding-bottom: 30px;
+    }
+    .modal-content {
+        margin-top: 2%;
+    }
+    .modal-dialog {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 380px) {}
